@@ -1,0 +1,53 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module XML</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>XML</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/v/filer4b/v35q001/ras3638/Desktop/cs327e-xml/XML.py">/v/filer4b/v35q001/ras3638/Desktop/cs327e-xml/XML.py</a></font></td></tr></table>
+    <p><tt>#------------------------------<br>
+#&nbsp;projects/Search&nbsp;in&nbsp;XML/XML.py<br>
+author:&nbsp;Roberto&nbsp;Salinas,&nbsp;Xiaoqin&nbsp;LI<br>
+#------------------------------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-get_Target_String"><strong>get_Target_String</strong></a>(target_tree, Start_String)</dt><dd><tt>create&nbsp;and&nbsp;return&nbsp;the&nbsp;query&nbsp;string&nbsp;from&nbsp;target&nbsp;tree&nbsp;by&nbsp;recursion&nbsp;method<br>
+it&nbsp;returns&nbsp;a&nbsp;string&nbsp;that&nbsp;is&nbsp;gonna&nbsp;be&nbsp;used&nbsp;at&nbsp;the&nbsp;argument&nbsp;of&nbsp;element.findall()&nbsp;to&nbsp;search&nbsp;target&nbsp;tree.</tt></dd></dl>
+ <dl><dt><a name="-xmlPrint"><strong>xmlPrint</strong></a>(w, output_list)</dt><dd><tt>prints&nbsp;the&nbsp;values&nbsp;of&nbsp;output_list<br>
+w&nbsp;is&nbsp;a&nbsp;writer</tt></dd></dl>
+ <dl><dt><a name="-xmlRead"><strong>xmlRead</strong></a>(stdin)</dt><dd><tt>stdin:&nbsp;system&nbsp;input&nbsp;stream<br>
+return&nbsp;a&nbsp;string&nbsp;read&nbsp;from&nbsp;a&nbsp;xml&nbsp;data</tt></dd></dl>
+ <dl><dt><a name="-xmlSolve"><strong>xmlSolve</strong></a>(stdin, stdout)</dt><dd><tt>stdin:&nbsp;system&nbsp;input&nbsp;stream<br>
+stout:&nbsp;system&nbsp;output&nbsp;stream<br>
+root&nbsp;is&nbsp;the&nbsp;whole&nbsp;single&nbsp;root&nbsp;element&nbsp;tree<br>
+root_list:&nbsp;all&nbsp;child&nbsp;element</tt></dd></dl>
+ <dl><dt><a name="-xmleval"><strong>xmleval</strong></a>(source_tree, target_tree)</dt><dd><tt>Searches&nbsp;for&nbsp;the&nbsp;target_tree&nbsp;in&nbsp;the&nbsp;XML&nbsp;source&nbsp;tree<br>
+Returns&nbsp;the&nbsp;number&nbsp;of&nbsp;occurance&nbsp;and&nbsp;location&nbsp;of&nbsp;each&nbsp;occurrence.<br>
+target_string:&nbsp;the&nbsp;string&nbsp;of&nbsp;query&nbsp;element&nbsp;tree<br>
+goal_list:&nbsp;a&nbsp;list&nbsp;of&nbsp;target_tree&nbsp;found&nbsp;in&nbsp;source&nbsp;tree.<br>
+output_list&nbsp;is&nbsp;the&nbsp;list&nbsp;of&nbsp;output:<br>
+first&nbsp;element&nbsp;in&nbsp;the&nbsp;list&nbsp;denotes&nbsp;the&nbsp;number&nbsp;of&nbsp;occurance<br>
+other&nbsp;elements&nbsp;denote&nbsp;the&nbsp;location(id)&nbsp;of&nbsp;each&nbsp;occurance<br>
+source_tree2&nbsp;:&nbsp;created&nbsp;by&nbsp;inserting&nbsp;source&nbsp;tree&nbsp;in&nbsp;an&nbsp;empty&nbsp;element&nbsp;tree.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;reason&nbsp;to&nbsp;do&nbsp;so&nbsp;is&nbsp;to&nbsp;include&nbsp;the&nbsp;top&nbsp;layer&nbsp;of&nbsp;source&nbsp;tree&nbsp;in&nbsp;the&nbsp;searching.<br>
+Using&nbsp;element.set()&nbsp;and&nbsp;element.get()&nbsp;to&nbsp;set&nbsp;and&nbsp;get&nbsp;attribute&nbsp;key&nbsp;on&nbsp;the&nbsp;element&nbsp;to&nbsp;value,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;which&nbsp;reduce&nbsp;algorithm&nbsp;complexity&nbsp;compared&nbsp;to&nbsp;previous&nbsp;nested&nbsp;searching&nbsp;for&nbsp;loop</tt></dd></dl>
+</td></tr></table>
+</body></html>

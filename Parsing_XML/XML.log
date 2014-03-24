@@ -1,0 +1,189 @@
+commit 295bb9e0f325aa1a95c2191fc8e583c062ff020b
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Thu Feb 13 18:12:06 2014 -0600
+
+    Deleted extra files. Changed comment in TestXML
+
+commit 95aabae1773716dffdeeda9b4943fb77b7dc3c7b
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Thu Feb 13 17:58:59 2014 -0600
+
+    Added acceptance tests from 5 other students. Removed some files
+
+commit 05c12f345a6be5585ce51ba6fd2dc8874509a938
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Wed Feb 12 20:03:28 2014 -0600
+
+    Add Makefile with py extension
+
+commit 86d6e195ec436b7f9bd72d00435c1d48690231a8
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Wed Feb 12 19:53:50 2014 -0600
+
+    Added XML.log
+
+commit eec2985f3f70168ac9343f4a9a34cecb698517d1
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Wed Feb 12 19:50:53 2014 -0600
+
+    Added XML.html
+
+commit 065fbe75174a9e1abecd896017cbd417fda303cf
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 18:55:17 2014 -0600
+
+    fixed some typo in RunXML.py
+
+commit 1b2c5290cce69156fd2c087a539c6baf6e496a12
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 18:19:06 2014 -0600
+
+    added more corner test in RunXML.in
+
+commit 019e30aeb27ce44a71b865065afc7a35ef20fa81
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 16:35:56 2014 -0600
+
+    modified comments on XML.py
+
+commit 2451046d8ca7e5b58e8cd97b6b718da7dd4fd677
+Merge: 7571a7d f54f2a4
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 12:42:06 2014 -0600
+
+    update RunXML.in
+
+commit 7571a7d9c9d8298748cd6356ff4171216d1ad6d2
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 12:38:48 2014 -0600
+
+    update RunXML.in
+
+commit 1b93d81d83520085ef8bf11180dff76aeb19f1a8
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 12 12:37:06 2014 -0600
+
+    optimized indexing and searching method by element.set()
+
+commit f54f2a487830d43050c6433d486d5241c12defcd
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Tue Feb 11 21:52:21 2014 -0600
+
+    Added 1000 lines of acceptance tests
+
+commit 45204d55ec5b1762c49682506032eb08b1a58d0c
+Merge: f70ee3c e42e161
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Tue Feb 11 20:29:56 2014 -0600
+
+    merge
+
+commit f70ee3c43300048c19b7e4d2609a5ab6ac28bec9
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Tue Feb 11 20:28:14 2014 -0600
+
+    Stashing RunXML.in
+
+commit e42e16182a1d7e733073c3f3cd2e4e915db8e006
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Feb 11 13:57:55 2014 -0600
+
+    added RunXML.py and uupdated TestXML.py
+
+commit b8b933c3a993084dae66f381f05fd8bd3846e3a3
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Mon Feb 10 23:18:21 2014 -0600
+
+    add a couple of corner test, commented tests and fixed a typo
+
+commit 77a1f2c096435572a3dcb3803b81677ae299e55d
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Mon Feb 10 22:46:21 2014 -0600
+
+    added comments and assertion checks
+
+commit 5a2d7795de16904b2774e29290f139f8cb239b30
+Merge: 7e9c607 902bddb
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Mon Feb 10 22:27:13 2014 -0600
+
+    update to merge
+
+commit 7e9c60765f83aba426300c509bbec92b68ed5b38
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Mon Feb 10 22:13:18 2014 -0600
+
+    update to merge github
+
+commit 902bddba46eee0ba2ab1d6becb845d1525c9650b
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Mon Feb 10 18:00:01 2014 -0600
+
+    Completed TestXML.py
+
+commit 909a3742b0bcaa5a2addad32c7fd23f3cbcfc63a
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Mon Feb 10 16:22:31 2014 -0600
+
+    Deleted Testing.txt. Modified TestXML.py and created TextXML.out
+
+commit fa537b37117e7b887c395c868557c33841132c87
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Feb 8 16:57:01 2014 -0600
+
+    Added writer function
+
+commit 67c64c297a0f8740ae6724f925faa7a8f31c6e57
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Feb 8 16:48:24 2014 -0600
+
+    Added ability to loop through multiple line xml tests
+
+commit 4d3c8f464fc17b5d1fa231ea292b12e3c9b6769f
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Sat Feb 8 16:24:58 2014 -0600
+
+    Initial XML.py algorithm written in xmleval
+
+commit dd5dc27929b21df3f27d5b190dd18ae782650bf2
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Feb 6 21:08:11 2014 -0600
+
+    initialized XML.py Template according to 1st pair programming
+
+commit 0b8dbf37d98cb7eedd6433c4a90a3259dc05b90b
+Author: Roberto Salinas <ras3638@cs.utexas.edu>
+Date:   Wed Feb 5 20:38:12 2014 -0600
+
+    Added XML.py and modified RunXML.in
+
+commit 2cb7e7448bb544a4757d8617d865f8f39c9144c7
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 5 19:41:35 2014 -0600
+
+    use this TestXML.py as a skeleton
+
+commit 24c29de4e65fdb2472f8806d2ccb46f317374a74
+Merge: 8787999 638a9fc
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 5 19:22:54 2014 -0600
+
+    Merge branch 'master' of github.com:XiaoqinLI/cs327e-xml
+
+commit 87879999cd26309663f7eb7d6fb82548071ca9da
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 5 19:14:47 2014 -0600
+
+    Original files from class repo
+
+commit 638a9fcf4c913999590787af86b5e23e4e4779f9
+Author: Robert Salinas <robert.salinas.91@gmail.com>
+Date:   Wed Feb 5 18:45:17 2014 -0600
+
+    Commiting a testing file to partner's repo
+
+commit 458e45bbf93ab883b21ffcd688fea3344a9c045e
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Wed Feb 5 17:37:54 2014 -0600
+
+    first commit: init my private repo for project2

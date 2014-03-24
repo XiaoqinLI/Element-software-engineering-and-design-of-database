@@ -1,0 +1,131 @@
+commit 9e7736d25e95d508722f76f7b7fb707684229edc
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 30 19:22:39 2014 -0600
+
+    relevant to issue 4, updated to an eager cache, more efficient
+
+commit a3e617d7e11f22aa13de22b972f4a965272172a5
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 30 19:11:57 2014 -0600
+
+    modify input pairs range to (1 1000000)
+
+commit 4df180def36e62c5c199f8ed141a47d9f732e249
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 30 19:10:13 2014 -0600
+
+    add 'makefile'
+
+commit 21fe0c80bdbe9ba69e1848c150d44d5dc397fc0c
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 30 19:09:11 2014 -0600
+
+    create .html for Collatz by pydoc and update Collatz
+
+commit 2e89001ca979379370a3639b33495d4690bcdde2
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 23:53:15 2014 -0600
+
+    updated and final version of RunCollatz.in and.out
+
+commit 2e327dcf4892bd460123639f8c4a4157debe6c1a
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 23:38:52 2014 -0600
+
+    final version of TestCollatz.py
+
+commit f0f567b62faa751de756f38b05358bd25bdb90ed
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 23:15:53 2014 -0600
+
+    add comments in RunCollatz, complete Acceptance test issues
+
+commit 4b1b7212f88b30c8b82914a9597d88f44d983f0e
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 23:10:17 2014 -0600
+
+    Updated Unit Test with more corner test, add comments and finished the Unit test issues and milestone
+
+commit f971e8cf9265b297841561d8bea3a23acb271834
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 22:36:21 2014 -0600
+
+    delete files with wrong name
+
+commit b4c1240749cdcb52ba9158d2e5e74ebfdbe75692
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Tue Jan 28 22:31:10 2014 -0600
+
+    modifed Run and TestCollatz files' name as required
+
+commit 6b4e8920ba647c27b3a41ef3b79aac6a1773897a
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Fri Jan 24 15:15:42 2014 -0600
+
+    update Collatz.log
+
+commit 7b1a7a3315340062ea40f42a23fa85b31ec9963c
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Fri Jan 24 15:04:37 2014 -0600
+
+    add corner test in acceptance test, updated files' name
+
+commit df058d23c829216bf0efde0f1e5093757e6e70e9
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Fri Jan 24 14:52:31 2014 -0600
+
+    Updated Unit Test files, including corner tests
+
+commit 4f8ca133b3b0afbeba4a6d53efc4482ed22b56c5
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Fri Jan 24 11:43:32 2014 -0600
+
+    updated RunCollatz.py
+
+commit ae391f15e7385cbebcad3f707a1326bbe75d1812
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Fri Jan 24 11:41:20 2014 -0600
+
+    add RunCollatz files, acceptance test passed
+
+commit 8b85a4d909b56e863a13b0758310e48fab043b06
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 21:20:52 2014 -0600
+
+    add TestCollatz files, Unit Test Done
+
+commit 7dd5d7e7511e6330b6bcc5baee9f055f3d616ffe
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 21:18:02 2014 -0600
+
+    Last commit to creat log failed, creat it now
+
+commit a7809601d45165191c31e52b690847d7b75ecca3
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 16:20:52 2014 -0600
+
+    Corrected the lazy cache, got accepted by SPOJ
+
+commit 859f42fc18e07305779efd8eeed4c1224f52e91d
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 16:10:23 2014 -0600
+
+    add a cache to SphereCollatz but got wrong answer
+
+commit d4ce171599a0d13e0325590efefd11b13ac1b53d
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 16:04:44 2014 -0600
+
+    create a log file to track each commit
+
+commit 5840c793ceca86763298637b85d1c7840a93bc9d
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Thu Jan 23 15:52:37 2014 -0600
+
+    Fiist version of SphereCollatz, answer is right but exceeds time limit
+
+commit c4bd9945f9b519f454df034d61e3e908652c5a42
+Author: XiaoqinLI <daybreaklee@utexas.edu>
+Date:   Mon Jan 20 14:06:46 2014 -0600
+
+    Initial commit with CS327E_readme.txt
