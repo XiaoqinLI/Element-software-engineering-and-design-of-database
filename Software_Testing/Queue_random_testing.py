@@ -67,7 +67,7 @@ class Queue:
 
 # Write a random tester for the Queue class.
 def test():
-    N = 10
+    N = 1000
     add = 0
     remove = 0
     addFull = 0
@@ -75,31 +75,36 @@ def test():
     q = Queue(N)
     q.checkRep()
     l = []
-    for i in range(10000):
-        if(random.random() < 0.5):
-            z = random.randint(0,1000000)
-            res = q.enqueue(z)
-            q.checkRep()
-            if res:
-                l.append(z)
-                add +=1
-            else:
-                assert len(l) == N
-                assert q.full()
+    # adding bias and testing much bigger queue
+    for x in range(20):
+        bias = 0.2
+        if x%2 == 1:
+            bias = - 0.2
+        for i in range(10000):
+            if(random.random() < 0.5 + bias):
+                z = random.randint(0,1000000)
+                res = q.enqueue(z)
                 q.checkRep()
-                addFull += 1
-        else:
-            z= q.dequeue()
-            q.checkRep()
-            if z is  None:
-                assert len(l) == 0
-                assert q.empty()
-                q.checkRep()
-                removeEmpty += 1
+                if res:
+                    l.append(z)
+                    add +=1
+                else:
+                    assert len(l) == N
+                    assert q.full()
+                    q.checkRep()
+                    addFull += 1
             else:
-                expected_value = l.pop(0)
-                assert z == expected_value
-                remove += 1
+                z= q.dequeue()
+                q.checkRep()
+                if z is  None:
+                    assert len(l) == 0
+                    assert q.empty()
+                    q.checkRep()
+                    removeEmpty += 1
+                else:
+                    expected_value = l.pop(0)
+                    assert z == expected_value
+                    remove += 1
     while True:
         res = q.dequeue()
         q.checkRep()
@@ -108,6 +113,9 @@ def test():
         z = l.pop(0)
         assert res == z
     assert len(l) == 0         
-
+    print("number of add: ", add)
+    print("number of remove: ", remove)
+    print("number of addFull: ", addFull)
+    print("number of removeEmpty: ", removeEmpty)
 test()
 
